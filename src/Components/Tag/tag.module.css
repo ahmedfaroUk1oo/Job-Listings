@@ -1,0 +1,18 @@
+.tag {
+ 
+  cursor: pointer;
+  font-size: 14px !important;
+}
+
+.tag:hover{
+  color: #fff !important;
+  background-color: var(--desaturated-dark-cyan) !important; 
+}
+
+
+
+@media (min-width:900px){
+  .tag {
+    padding: 8px;
+  }
+}
